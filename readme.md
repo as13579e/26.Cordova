@@ -23,6 +23,9 @@
  *设置 sdk 的 tools 和 platform-tools 路径到 path 里，在 path 中加入 ;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;
  * 在cmd命令窗口输入 android -h验证环境变量是否配置成功
  * 进入安装sdk的目录，运行SDK Manager 安装工具,设置下载包的源的代理。注意公司网络翻墙了也搜不出可以安装的包，需要用手机网络。![设置代理](./img/prop.png)
+ * 在android sdk 安装目录下，有一个SDK Manager.exe，SDK Manager就是一个Android软件开发工具包管理器，就像一个桥梁，连通本地和服务器，从服务器下载安卓开发所需工具到本地。
+ * 需要安装的插件请查看：https://www.cnblogs.com/guo2733/p/10558401.html
+ * 附上亲测成功的需要安装的包 ![需要安装的包](./img/package.jpg)
 6. cordova build android  构建应用程序
 6. cordova emulate android  运行我们的应用程序。 如果你使用默认模拟器
 7. cordova run android  运行我们的应用程序。如果想使用外部模拟器或真实设备
